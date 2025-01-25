@@ -7,12 +7,7 @@ export default function About() {
             <Header />
             <h1>About Page</h1>
             <p>
-                Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-                Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-                mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-                lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-                imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-                in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+            Experience in driving operational efficiency, investment optimization and product delivery. Empathetic leader with a focus on utilizing data in storytelling and prioritization. Possesses the curiosity to dig deep, understand broadly, and solve big problems collaboratively. Demonstrated ability to translate business goals and requirements into actional plans and technical solutions. Seeking to bring my passion, analysis skills, and curiosity to a high-performing team.
             </p>
             <Footer />
         </div>

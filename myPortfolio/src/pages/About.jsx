@@ -3,7 +3,7 @@ export default function About() {
         <div class="container text-left bg-primary bg-gradient">
             <div class="row align-items-start">
                 <div class="col">
-                    <img src="/src/assets/dm.png" alt="Dan Musser" className="img-fluid img-thumbnail rounded float-start bg-light my-5" width="300" height="300"></img>
+                    <img src="/public/assets/dm.png" alt="Dan Musser" className="img-fluid img-thumbnail rounded float-start bg-light my-5" width="300" height="300"></img>
                 </div>
                 <div class="col-8">
                     <h3 className="text-secondary">Background</h3>

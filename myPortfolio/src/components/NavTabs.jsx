@@ -6,10 +6,10 @@ function NavTabs() {
     const currentPage = useLocation().pathname;
 
     return (
-        <nav className="navbar navbar-expand-lg bg-body-tertiary">
+        <nav className="navbar navbar-expand-lg bg-body">
             <div className="container-fluid">
                 <a className="navbar-brand" href="#">
-                    <img src="https://img.icons8.com/hatch/64/mario.png" alt="Logo" width="30" height="30" className="d-inline-block align-text-top" />
+                    <img src="https://img.icons8.com/hatch/64/mario.png" alt="Logo" width="30" height="30" className="d-inline-block align-text-top tertiary" />
                     Dan Musser
                 </a>
                 <ul className="nav nav-tabs">

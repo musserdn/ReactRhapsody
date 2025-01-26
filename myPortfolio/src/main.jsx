@@ -2,8 +2,9 @@ import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './index.css'
 
-import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
+import './styles/main.scss'; // Import the main SCSS file
 import 'bootstrap-icons/font/bootstrap-icons.css'; // Import Bootstrap Icons CSS
+
 
 import App from './App';
 import Error from './pages/Error';

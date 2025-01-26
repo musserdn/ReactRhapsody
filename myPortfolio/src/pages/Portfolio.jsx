@@ -1,20 +1,47 @@
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import React from 'react';
+import Project from '../components/project';
+
 
 export default function Portfolio() {
+    const projects = [
+        {
+            title: 'Foodie',
+            imgSrc: 'https://github.com/musserdn/Foodie/raw/main/assets/images/Home_SS.png',
+            projectLink: 'https://musserdn.github.io/Foodie/'
+        },
+        {
+            title: 'InstantWeather',
+            imgSrc: 'https://github.com/musserdn/instantWeather/raw/main/Assets/iweather_screenshot.png',
+            projectLink: 'https://instantweather.onrender.com/'
+        },
+        {
+            title: 'Bossmode',
+            imgSrc: 'https://github.com/musserdn/BossMode/raw/main/Assets/bossmode.png',
+            projectLink: 'https://github.com/musserdn/BossMode'
+        },
+        {
+            title: 'README Generator',
+            imgSrc: 'https://github.com/musserdn/instantWeather/raw/main/Assets/iweather_screenshot.png',
+            projectLink: 'https://github.com/musserdn/challenges/tree/main/07-ReadMe_Challenge'
+        },
+        {
+            title: 'Vehicle Builder',
+            imgSrc: 'https://github.com/musserdn/instantWeather/raw/main/Assets/iweather_screenshot.png',
+            projectLink: 'https://github.com/musserdn/challenges/tree/main/08-Typescript_Vehicle_Builder'
+        }
+    ];
     return (
-        <div>
-            <Header />
-            <h1>Portfolio Page</h1>
-            <p>
-                Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-                Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-                mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-                lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-                imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-                in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-            </p>
-            <Footer />
+        <div className="container my-4">
+            <div className="row">
+                {projects.map((proj, index) => (
+                    <Project
+                        key={index}
+                        title={proj.title}
+                        imgSrc={proj.imgSrc}
+                        projectLink={proj.projectLink}
+                    />
+                ))}
+            </div>
         </div>
     );
 }

@@ -19,8 +19,8 @@ export default function ErrorPage() {
             <img
                 className="img-thumbnail"
                 src={`https://placedog.net/300/${randomWidth()}`}
-                alt="Picture of a Dog" 
-            />           
+                alt="Picture of a Dog"
+            />
         </div>
     );
 }

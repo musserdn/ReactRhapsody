@@ -1,0 +1,17 @@
+@use "bootstrap/scss/bootstrap" with (
+    $primary: #214E34,
+    $secondary: #0A2463,
+    $light: #a59696,
+    $success: green,
+    $info: cyan,
+    $warning: yellow,
+    $danger: red,
+    $dark: gray
+    );
+    // Define custom variables
+$bg-body: lightgrey;
+
+// Use custom variables in your styles
+body {
+  background-color: $bg-body;
+}

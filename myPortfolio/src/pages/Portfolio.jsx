@@ -6,28 +6,28 @@ export default function Portfolio() {
     const projects = [
         {
             title: 'Foodie',
-            imgSrc: 'https://github.com/musserdn/Foodie/raw/main/assets/images/Home_SS.png',
+            imgSrc: '/assets/Foodie_ss.png',
             projectLink: 'https://musserdn.github.io/Foodie/'
         },
         {
-            title: 'InstantWeather',
-            imgSrc: 'https://github.com/musserdn/instantWeather/raw/main/Assets/iweather_screenshot.png',
-            projectLink: 'https://instantweather.onrender.com/'
-        },
-        {
-            title: 'Bossmode',
-            imgSrc: 'https://github.com/musserdn/BossMode/raw/main/Assets/bossmode.png',
-            projectLink: 'https://github.com/musserdn/BossMode'
-        },
-        {
             title: 'README Generator',
-            imgSrc: 'https://github.com/musserdn/instantWeather/raw/main/Assets/iweather_screenshot.png',
+            imgSrc: '/assets/readme_ss.png',
             projectLink: 'https://github.com/musserdn/challenges/tree/main/07-ReadMe_Challenge'
         },
         {
             title: 'Vehicle Builder',
-            imgSrc: 'https://github.com/musserdn/instantWeather/raw/main/Assets/iweather_screenshot.png',
+            imgSrc: '/assets/vehicle_ss.png',
             projectLink: 'https://github.com/musserdn/challenges/tree/main/08-Typescript_Vehicle_Builder'
+        },
+        {
+            title: 'InstantWeather',
+            imgSrc: '/assets/iweather_ss.png',
+            projectLink: 'https://instantweather.onrender.com/'
+        },
+        {
+            title: 'Bossmode',
+            imgSrc: '/assets/bossmode_ss.png',
+            projectLink: 'https://github.com/musserdn/BossMode'
         }
     ];
     return (

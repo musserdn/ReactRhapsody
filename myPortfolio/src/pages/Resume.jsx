@@ -3,6 +3,7 @@ import React from 'react';
 export default function Resume() {
     return (
         <div className="container-fluid text-left bg-gradient py-5">
+            <b><a className="text-secondary" href="/assets/Dan_Musser-Resume.pdf" target="_blank" rel="noopener noreferrer"><h4>Download my Resume</h4></a></b>
             <div className="row">
                 <div className="col-12 col-md-6">
                     <h2 className="text-secondary">Summary</h2>

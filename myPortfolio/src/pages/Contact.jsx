@@ -26,7 +26,7 @@ export default function Contact() {
                     </div>
                     <h1 className="text-light">Let's Get in Touch</h1>
                     <p className="text-light">
-                        I’d love to hear from you! Whether you’re interested in collaborating, connecting, or courious, feel free to reach out. Try one of my social media links below or send me a note!
+                        I’d love to hear from you! Whether you’re interested in collaborating, connecting, or curious, feel free to reach out. Try one of my social media links below or send me a note!
                     </p>
                 </div>
                 <div className="col">

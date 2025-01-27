@@ -28,6 +28,11 @@ export default function Portfolio() {
             title: 'Bossmode',
             imgSrc: '/assets/bossmode_ss.png',
             projectLink: 'https://github.com/musserdn/BossMode'
+        },
+        {
+            title: 'ReactRhapsody',
+            imgSrc: '/assets/ReactRhapsody_ss.png',
+            projectLink: 'https://reactrhapsody.netlify.app/'
         }
     ];
     return (

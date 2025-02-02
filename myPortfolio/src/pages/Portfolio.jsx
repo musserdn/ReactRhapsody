@@ -1,4 +1,3 @@
-import React from 'react';
 import Project from '../components/Projects';
 
 
@@ -33,6 +32,11 @@ export default function Portfolio() {
             title: 'ReactRhapsody',
             imgSrc: '/assets/ReactRhapsody_ss.png',
             projectLink: 'https://reactrhapsody.netlify.app/'
+        },
+        {
+            title: 'Git For Hire',
+            imgSrc: '/assets/pcss_ss.png',
+            projectLink: 'https://gitforhire.netlify.app/'
         }
     ];
     return (

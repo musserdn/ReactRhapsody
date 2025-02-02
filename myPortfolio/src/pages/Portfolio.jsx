@@ -35,7 +35,7 @@ export default function Portfolio() {
         },
         {
             title: 'Git For Hire',
-            imgSrc: '/assets/pcss_ss.png',
+            imgSrc: '/assets/pc_ss.png',
             projectLink: 'https://gitforhire.netlify.app/'
         }
     ];

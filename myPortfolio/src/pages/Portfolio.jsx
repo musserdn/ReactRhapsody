@@ -37,6 +37,11 @@ export default function Portfolio() {
             title: 'Git For Hire',
             imgSrc: '/assets/pc_ss.png',
             projectLink: 'https://gitforhire.netlify.app/'
+        },
+        {
+            title: 'AuthKanban',
+            imgSrc: '/assets/kanban_ss.png',
+            projectLink: 'https://authkanban.onrender.com/'
         }
     ];
     return (

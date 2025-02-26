@@ -42,6 +42,11 @@ export default function Portfolio() {
             title: 'AuthKanban',
             imgSrc: '/assets/kanban_ss.png',
             projectLink: 'https://authkanban.onrender.com/'
+        },
+        {
+            title: 'RoomReady',
+            imgSrc: '/assets/rr_ss.png',
+            projectLink: 'https://roomready.onrender.com/'
         }
     ];
     return (

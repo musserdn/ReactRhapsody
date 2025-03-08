@@ -47,6 +47,11 @@ export default function Portfolio() {
             title: 'RoomReady',
             imgSrc: '/assets/rr_ss.png',
             projectLink: 'https://roomready.onrender.com/'
+        },
+        {
+            title: 'MongooseSocial',
+            imgSrc: '/assets/mongooseSocial_ss.png',
+            projectLink: 'https://github.com/musserdn/MongooseSocial'
         }
     ];
     return (

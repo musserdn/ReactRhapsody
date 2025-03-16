@@ -52,6 +52,11 @@ export default function Portfolio() {
             title: 'MongooseSocial',
             imgSrc: '/assets/mongooseSocial_ss.png',
             projectLink: 'https://github.com/musserdn/MongooseSocial'
+        },
+        {
+            title: 'GraphQLibrary',
+            imgSrc: './assets/graphqlibrary_ss.png',
+            projectLink: 'https://graphqlibrary.onrender.com/'
         }
     ];
     return (

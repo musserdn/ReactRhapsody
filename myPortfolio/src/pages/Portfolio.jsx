@@ -57,6 +57,11 @@ export default function Portfolio() {
             title: 'GraphQLibrary',
             imgSrc: './assets/graphqlibrary_ss.png',
             projectLink: 'https://graphqlibrary.onrender.com/'
+        },
+        {
+            title: 'SproutSwap',
+            imgSrc: './assets/sproutSwap.png',
+            projectLink: 'https://sproutswap.onrender.com/'
         }
     ];
     return (

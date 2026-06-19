@@ -69,9 +69,9 @@ export default function Resume() {
                 </div>
                 <div className="col-12 col-md-6">
                     <h2 className="text-secondary">Professional Experience</h2>
-                    <h5 className="mb-0 text-light">Target Corporation - Minneapolis, MN</h5>
-                    <h6 className="mb-0 mt-3 text-light">Sr. Product Manager - Warehouse Management</h6>
-                    <h7 className="mb-0 text-light">April 2022 - Present</h7>
+                    <h4 className="mb-0 text-light">Target Corporation - Minneapolis, MN</h4>
+                    <h5 className="mb-0 mt-3 text-light">Sr. Product Manager - Warehouse Management</h5>
+                    <h6 className="mb-0 text-light">April 2022 - Present</h6>
                     <ul className="list-group">
                         <li className="list-group-item px-1 py-0 bg-primary text-light">Implemented product features to increase accuracy, safety and efficiency of inventory location management;</li>
                         <li className="list-group-item px-1 py-0 bg-primary text-light">Increased product availability and quality through weekly audits;</li>
@@ -81,8 +81,8 @@ export default function Resume() {
                         <li className="list-group-item px-1 py-0 bg-primary text-light">Leveraged data analysis to drive product opportunities and key results;</li>
                         <li className="list-group-item px-1 py-0 bg-primary text-light">Managed the deprecation of multiple duplicative legacy systems to reduce product incidents, downtime, and meantime to restore.</li>
                     </ul>
-                    <h6 className="mb-0 mt-3 text-light">Lead Business Partner - Assets Protection Technology</h6>
-                    <h7 className="mb-0 text-light">June 2019 - April 2022</h7>
+                    <h5 className="mb-0 mt-3 text-light">Lead Business Partner - Assets Protection Technology</h5>
+                    <h6 className="mb-0 text-light">June 2019 - April 2022</h6>
                     <ul className="list-group ">
                         <li className="list-group-item px-1 py-0 bg-primary text-light">Optimized asset replacement strategy for 160k camera system;</li>
                         <li className="list-group-item px-1 py-0 bg-primary text-light">Reduced downtime and outages for critical surveillance;</li>
@@ -90,8 +90,8 @@ export default function Resume() {
                         <li className="list-group-item px-1 py-0 bg-primary text-light">Collaborated on programs in reducing theft, shortage, and safety incidents;</li>
                         <li className="list-group-item px-1 py-0 bg-primary text-light">Managed the technical access control solution for Drive Up.</li>      
                         </ul>                  
-                    <h6 className="mb-0 mt-3 text-light">Senior Program Owner - Property Management</h6>
-                    <h7 className="mb-0 text-light">August 2014 - June 2019</h7>
+                    <h5 className="mb-0 mt-3 text-light">Senior Program Owner - Property Management</h5>
+                    <h6 className="mb-0 text-light">August 2014 - June 2019</h6>
                     <ul className="list-group">
                         <li className="list-group-item px-1 py-0 bg-primary text-light">Executed strategies to maximum asset lifecycles;</li>
                         <li className="list-group-item px-1 py-0 bg-primary text-light">Optimized a $30M+ capital investment program;</li>

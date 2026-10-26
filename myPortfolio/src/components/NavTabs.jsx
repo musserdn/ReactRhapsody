@@ -1,18 +1,12 @@
 
 import { Link, useLocation } from 'react-router-dom';
+import { navigationItems } from '../data/siteData';
 
 function NavTabs() {
-    const currentPage = useLocation().pathname;
-
-    const navItems = [
-        { label: 'About', path: '/' },
-        { label: 'Portfolio', path: '/Portfolio' },
-        { label: 'Resume', path: '/Resume' },
-        { label: 'Contact', path: '/Contact' }
-    ];
+    const { pathname } = useLocation();
 
     return (
-        <nav className="navbar navbar-expand navbar-light bg-light">
+        <nav className="navbar navbar-expand navbar-light bg-light" aria-label="Primary navigation">
             <div className="container">
                 <Link
                     className="navbar-brand fw-bold d-flex align-items-center gap-2"
@@ -29,13 +23,13 @@ function NavTabs() {
                 </Link>
 
                 <ul className="navbar-nav flex-row flex-wrap ms-auto gap-1">
-                    {navItems.map((item) => {
-                        const isActive = currentPage === item.path;
+                    {navigationItems.map(({ label, path }) => {
+                        const isActive = pathname === path;
 
                         return (
-                            <li className="nav-item" key={item.path}>
+                            <li className="nav-item" key={path}>
                                 <Link
-                                    to={item.path}
+                                    to={path}
                                     className={`nav-link px-2 ${
                                         isActive
                                             ? 'active fw-bold text-primary border-bottom border-2 border-primary'
@@ -43,7 +37,7 @@ function NavTabs() {
                                     }`}
                                     aria-current={isActive ? 'page' : undefined}
                                 >
-                                    {item.label}
+                                    {label}
                                 </Link>
                             </li>
                         );

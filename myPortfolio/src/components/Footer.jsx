@@ -1,4 +1,6 @@
 
+import { socialLinks } from '../data/siteData';
+
 const currentYear = new Date().getFullYear();
 
 function Footer() {
@@ -8,27 +10,19 @@ function Footer() {
                 className="d-flex justify-content-center gap-4"
                 aria-label="Social media links"
             >
-                <a
-                    className="text-secondary"
-                    href="https://github.com/musserdn/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="GitHub profile"
-                    title="GitHub"
-                >
-                    <i className="bi bi-github fs-3" aria-hidden="true"></i>
-                </a>
-
-                <a
-                    className="text-secondary"
-                    href="https://www.linkedin.com/in/musserdn/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="LinkedIn profile"
-                    title="LinkedIn"
-                >
-                    <i className="bi bi-linkedin fs-3" aria-hidden="true"></i>
-                </a>
+                {socialLinks.map(({ label, title, url, iconClass }) => (
+                    <a
+                        key={title}
+                        className="text-secondary"
+                        href={url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label={label}
+                        title={title}
+                    >
+                        <i className={`${iconClass} fs-3`} aria-hidden="true"></i>
+                    </a>
+                ))}
             </nav>
 
             <p className="text-secondary small mt-3 mb-0">

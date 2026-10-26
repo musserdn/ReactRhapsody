@@ -27,11 +27,21 @@ $muted: #647067;
 body {
   background-color: $ivory;
   color: $graphite;
+  font-family: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
-// Consistent section spacing
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 main {
   min-height: 60vh;
+}
+
+:focus-visible {
+  outline: 3px solid rgba($sage, 0.65);
+  outline-offset: 3px;
 }
 
 // Navigation
@@ -50,6 +60,18 @@ main {
 // Links and buttons
 a {
   transition: color 200ms ease;
+}
+
+.nav-link,
+.btn,
+.project-link,
+footer a {
+  transition:
+    color 200ms ease,
+    background-color 200ms ease,
+    border-color 200ms ease,
+    transform 200ms ease,
+    box-shadow 200ms ease;
 }
 
 .btn {

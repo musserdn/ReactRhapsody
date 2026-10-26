@@ -1,11 +1,11 @@
 
 export default function Resume() {
     return (
-        <main className="container py-5 resume">
+        <section className="container py-5 resume" aria-labelledby="resume-heading">
             <header className="resume-section">
                 <p className="resume-label mb-2">Product Leadership</p>
 
-                <h1 className="display-5 fw-bold mb-3">
+                <h1 id="resume-heading" className="display-5 fw-bold mb-3">
                     Dan Musser
                 </h1>
 
@@ -305,6 +305,6 @@ export default function Resume() {
                     </section>
                 </div>
             </div>
-        </main>
+        </section>
     );
 }

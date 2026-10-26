@@ -1,37 +1,100 @@
+
 export default function About() {
     return (
-        <div className="container text-left bg-primary-gradient">
-            <div className="row align-items-start">
+        <section className="container py-5">
+            <div className="row g-5 align-items-start">
                 <div className="col-12 col-md-4">
                     <img
                         src="/assets/dm.png"
                         alt="Dan Musser"
-                        className="mg-fluid img-thumbnail rounded bg-light my-5 d-block mx-auto d-md-inline-block float-md-start"
+                        className="img-fluid rounded shadow-sm border mb-4"
                         width="300"
                         height="300"
                     />
+
+                    <h2 className="h4 fw-bold mb-3">Beyond Work</h2>
+
+                    <p className="text-secondary">
+                        Outside of work, I enjoy hiking, biking, skiing,
+                        paddleboarding, gardening, cooking, and baking.
+                        I also spend plenty of time with Chloe, our
+                        chocolate Lab and German Shorthaired Pointer mix.
+                    </p>
                 </div>
+
                 <div className="col-12 col-md-8">
-                    <h3 className="text-secondary">Background</h3>
-                    <p className="text-light">
-                        I grew up in the rural outskirts of a western Wisconsin city, surrounded by the warmth of a close-knit family. My academic journey began with a passion of Chemistry, which led me to pursue a degree in Chemical Engineering at the University of Minnesota Duluth. Post-graduation, I moved to the Twin Cities metro area and spent seven enriching years at a small environmental engineering firm, honing my skills and broadening my expertise.</p>
-
-                    <p className="text-light">I returned to academia to earn a Master’s in Public Health, specializing in Industrial Hygiene. This pivotal step prepared me to tackle challenges at the intersection of health, safety, and environmental stewardship.</p>
-
-                    <p className="text-light">My professional path brought me to Target Corporation, where I initially excelled in project management roles. Over time, I transitioned into Agile Product Management, collaborating with technology teams to create seamless and robust solutions that empower team members across our stores and supply chain locations.</p>
-
-                    <p className="text-light">Each chapter of my journey reflects a commitment to growth, innovation, and making a meaningful difference in the world.
+                    <p className="text-uppercase fw-semibold text-primary mb-2">
+                        About Me
                     </p>
-                    <h3 className="text-secondary">Hobbies</h3>
-                    <p className="text-light">
-                        When I’m not immersed in my professional pursuits, you’ll often find me embracing the great outdoors. Hiking, biking, skiing, and paddleboarding fuel my love for adventure and keep me connected to nature. At home, I enjoy tending to our vibrant garden and spending time with Chloe, our spirited chocolate Labrador-German Shorthaired Pointer mix. Cooking and baking are my creative outlets, where I experiment with flavors and craft dishes that bring people together.
+
+                    <h1 className="display-5 fw-bold mb-4">
+                        Product leadership grounded in real-world operations.
+                    </h1>
+
+                    <p className="lead mb-4">
+                        I build products that drive business results by
+                        connecting business strategy, operational realities,
+                        and technology.
                     </p>
-                    <h3 className="text-secondary">Professional Mantra</h3>
-                    <p className="text-light">
-                        Empathetic leader driven by a passion for operational efficiency, investment optimization, and impactful product delivery. I thrive on using data to tell stories and prioritize effectively, fostering collaboration to solve complex problems. With curiosity to explore deeply and an ability to transform business goals into actionable plans and technical solutions, I aim to bring my energy, analytical expertise, and vision to a high-performing team.
+
+                    <p>
+                        At Target, I work at the intersection of product
+                        management, warehouse operations, and technology.
+                        My focus is understanding complex problems, identifying
+                        the right opportunities, and partnering across
+                        business and engineering teams to deliver solutions
+                        that improve how work gets done.
+                    </p>
+
+                    <p>
+                        My technical fluency helps me work effectively with
+                        engineering teams and navigate system-level trade-offs.
+                        My operational background keeps the focus on practical
+                        outcomes for the people and businesses using the
+                        products we build.
+                    </p>
+
+                    <h2 className="h4 fw-bold mt-5 mb-3">How I Got Here</h2>
+
+                    <p>
+                        My career began with a degree in Chemical Engineering
+                        from the University of Minnesota Duluth, followed by
+                        seven years at an environmental engineering firm.
+                        I later earned a Master of Public Health from the
+                        University of Minnesota, specializing in Industrial
+                        Hygiene.
+                    </p>
+
+                    <p>
+                        I brought that analytical and systems-oriented
+                        foundation to Target, where I progressed through
+                        property management, assets protection technology,
+                        and warehouse management. That path gave me experience
+                        with capital investment, enterprise technology,
+                        operational processes, and ultimately product
+                        management.
+                    </p>
+
+                    <p>
+                        Each role strengthened my ability to connect
+                        strategic objectives with execution, make
+                        data-informed decisions, and lead collaborative
+                        problem-solving across complex organizations.
+                    </p>
+
+                    <h2 className="h4 fw-bold mt-5 mb-3">My Approach</h2>
+
+                    <p className="mb-0">
+                        I believe strong product leadership starts with
+                        understanding the problem, not jumping to a solution.
+                        I use data to inform decisions, make trade-offs
+                        explicit, and help teams focus on the outcomes that
+                        matter most. I value empathy, curiosity, clear
+                        priorities, and close partnership between business
+                        and technology.
                     </p>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
